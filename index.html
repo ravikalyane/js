@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+	<title>Javascript</title>
+</head>
+<body>
+	<div id="color" class="color-container"><h1>White</h1></div>
+	<br />
+	<div class="text-center">
+		<button class="btn btn-sm btn-primary" onclick="blue()">Blue</button>
+		<button class="btn btn-sm btn-danger" onclick="red()">Red</button>
+		<button class="btn btn-sm btn-success" onclick="green()">Green</button>
+		<button class="btn btn-sm btn-warning" onclick="yellow()">Yellow</button>
+		<button class="btn btn-sm btn-info" onclick="lightblue()">Light Blue</button>
+		<button class="btn btn-sm btn-orange" onclick="orange()">Orange</button>
+		<button class="btn btn-sm btn-purple" onclick="purple()">Purple</button>
+	</div>
+
+	<div class="container text-center">
+		<br />
+		<img id="image" src="white.png" />
+	</div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+<style>
+	.color-container {
+		background-color: ;
+		width: 100vw;
+		height: 250px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.btn-light{
+		border: 1px #e7e7e7 solid;
+	}
+	.btn-orange{
+		background-color: orange;
+	}
+	.btn-purple{
+		background-color: purple;
+	}
+</style>
+</html>
